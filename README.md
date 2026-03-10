@@ -1,10 +1,10 @@
-# 💰 Expense Tracker - Full Stack Application
+#  Expense Tracker - Full Stack Application
 
 A complete full-stack web application for tracking and managing daily expenses, built with **Java**, **Spring Boot**, **MySQL**, **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#features)
 - [Technology Stack](#technology-stack)
@@ -21,28 +21,28 @@ A complete full-stack web application for tracking and managing daily expenses, 
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Functionality
-- ✅ **Complete CRUD Operations** - Create, Read, Update, Delete expenses
-- ✅ **Category Management** - Organize expenses by Food, Travel, Shopping, Utilities, Others
-- ✅ **Payment Tracking** - Track payment methods (Cash, Card, UPI)
-- ✅ **Search & Filter** - Find expenses by title or category
-- ✅ **Expense Summary** - View total expenses and category-wise breakdown
-- ✅ **High-Value Detection** - Automatically highlight expenses ≥ $500
+-  **Complete CRUD Operations** - Create, Read, Update, Delete expenses
+-  **Category Management** - Organize expenses by Food, Travel, Shopping, Utilities, Others
+-  **Payment Tracking** - Track payment methods (Cash, Card, UPI)
+-  **Search & Filter** - Find expenses by title or category
+-  **Expense Summary** - View total expenses and category-wise breakdown
+-  **High-Value Detection** - Automatically highlight expenses ≥ $500
 
 ### Technical Features
-- ✅ **RESTful API** - Clean API architecture with proper HTTP methods
-- ✅ **Data Validation** - Both client-side and server-side validation
-- ✅ **Exception Handling** - Meaningful error messages and status codes
-- ✅ **Responsive Design** - Works on desktop, tablet, and mobile devices
-- ✅ **Real-time Updates** - Dynamic UI updates without page reload
-- ✅ **Persistent Storage** - MySQL database integration
-- ✅ **MVC Architecture** - Clean separation of concerns
+-  **RESTful API** - Clean API architecture with proper HTTP methods
+-  **Data Validation** - Both client-side and server-side validation
+-  **Exception Handling** - Meaningful error messages and status codes
+-  **Responsive Design** - Works on desktop, tablet, and mobile devices
+-  **Real-time Updates** - Dynamic UI updates without page reload
+-  **Persistent Storage** - MySQL database integration
+-  **MVC Architecture** - Clean separation of concerns
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Backend
 - **Java 17** - Core programming language
@@ -66,7 +66,7 @@ A complete full-stack web application for tracking and managing daily expenses, 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 guvi hack/
@@ -110,7 +110,7 @@ guvi hack/
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Before running this application, ensure you have the following installed:
 
@@ -138,7 +138,7 @@ Before running this application, ensure you have the following installed:
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Step 1: Clone or Download the Project
 
@@ -191,7 +191,7 @@ mvn clean install
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 ### Option 1: Run Console Version (Core Java)
 
@@ -239,7 +239,7 @@ Then open: `http://localhost:3000`
 
 ---
 
-## 📡 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -303,7 +303,7 @@ curl http://localhost:8080/api/expenses/summary
 
 ---
 
-## 🎯 Features Demonstration
+## Features Demonstration
 
 ### 1. Add Expense
 - Fill in all required fields (Title, Category, Amount, Date, Payment Method)
@@ -343,7 +343,7 @@ curl http://localhost:8080/api/expenses/summary
 
 ---
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### Object-Oriented Programming (Console Version)
 - **Encapsulation**: Private fields with getters/setters
@@ -374,7 +374,7 @@ curl http://localhost:8080/api/expenses/summary
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend Issues
 
@@ -427,7 +427,7 @@ java ExpenseTrackerApp
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 Potential features to add:
 
@@ -444,9 +444,9 @@ Potential features to add:
 
 ---
 
-## 📝 Assessment Checklist
+##  Assessment Checklist
 
-### ✅ Core Java Console Version
+###  Core Java Console Version
 - [x] Classes and Objects (Expense, ExpenseManager)
 - [x] ArrayList for expense list
 - [x] HashMap for ID-based operations
@@ -454,7 +454,7 @@ Potential features to add:
 - [x] Methods for all operations
 - [x] Object-Oriented Programming principles
 
-### ✅ Spring Boot Backend
+###  Spring Boot Backend
 - [x] MVC architecture
 - [x] RESTful API design
 - [x] Spring Data JPA
@@ -463,7 +463,7 @@ Potential features to add:
 - [x] HTTP status codes
 - [x] Request/Response validation
 
-### ✅ Frontend
+###  Frontend
 - [x] HTML5 structure
 - [x] CSS3 styling with Bootstrap
 - [x] Responsive design (Flexbox/Grid)
@@ -473,7 +473,7 @@ Potential features to add:
 - [x] JSON data exchange
 - [x] Client-side validation
 
-### ✅ Integration
+###  Integration
 - [x] Full stack connectivity
 - [x] CRUD operations end-to-end
 - [x] Dynamic UI updates
@@ -481,7 +481,7 @@ Potential features to add:
 - [x] Persistent database storage
 - [x] Error handling across layers
 
-### ✅ Special Features
+###  Special Features
 - [x] Filter by category
 - [x] Search by title
 - [x] Expense summary
@@ -492,7 +492,7 @@ Potential features to add:
 
 ---
 
-## 👤 Author
+##  Author
 
 **GUVI Hackathon Project**
 - Full Stack Expense Tracker
@@ -501,13 +501,13 @@ Potential features to add:
 
 ---
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of the GUVI Full Stack Development assessment.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Spring Boot** - Amazing framework for rapid development
 - **Bootstrap** - Responsive UI components
@@ -516,7 +516,7 @@ This project is created for educational purposes as part of the GUVI Full Stack 
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues or questions:
 1. Check the [Troubleshooting](#troubleshooting) section
@@ -526,4 +526,4 @@ For issues or questions:
 
 ---
 
-**Happy Expense Tracking! 💰**
+**Happy Expense Tracking! **
